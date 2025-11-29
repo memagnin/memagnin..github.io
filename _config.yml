@@ -22,9 +22,8 @@ author: Some Person
 navbar-links:
   Team: "aboutme"
   Data Story:
-    - Game: "story/intro.md"
-    - Solution: "story/solution.md"
-  Author's home: "https://deanattali.com"
+    - Game: "story/intro"
+    - Solution: "story/solution"
 
 ################
 # --- Logo --- #
