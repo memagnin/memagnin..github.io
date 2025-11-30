@@ -1,4 +1,4 @@
-{% if site.social-network-links %}
+{% if site.social-network-links or site.team_members %}
 <ul class="list-inline text-center footer-links">
 
 {%- for network in site.social-network-links -%}
@@ -408,6 +408,20 @@
   {%- endif -%}
 
 {%- endfor -%}
+
+{% if site.team_members %}
+  {% for member in site.team_members %}
+  <li class="list-inline-item">
+    <a href="https://github.com/{{ member }}" title="GitHub: {{ member }}">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub: {{ member }}</span>
+    </a>
+  </li>
+  {% endfor %}
+{% endif %}
 
 </ul>
 {% endif %}
