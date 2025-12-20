@@ -1,0 +1,27 @@
+linkSource,linkTarget
+Introduction,Wikipedia graph structure
+Wikipedia graph structure,Power of the first links
+Wikipedia graph structure,HITS scores
+Wikipedia graph structure,PageRank
+HITS scores,Power of the first links
+HITS scores,PageRank
+HITS scores,Wikipedia graph structure
+HITS scores,HITS_stanford
+HITS scores,CC License
+HITS scores,HITS wikipedia
+PageRank,Power of the first links
+PageRank,HITS scores
+PageRank,Wikipedia graph structure
+PageRank,CC License
+PageRank,PageRank wikipedia
+PageRank,PR References
+Power of the first links,General player behaviour
+Power of the first links,lead section
+Power of the first links,mean and var
+link section,Power of the first links
+link section,General player behaviour
+link section,Venn Diagram wikipedia
+mean and median,Power of the first links
+mean and median,Box plots
+mean and median,General player behaviour
+Power of the first links,
