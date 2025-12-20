@@ -11,5 +11,9 @@ We don't want you to miss any of the story so to avoid any shortcut, this page d
 
 Or if you are actually interested in the actual page:
 
-{% include United_States.html %}
+<iframe
+  src="{{ '/_includes/United_States.html' | relative_url }}"
+  style="width: 100%; height: 80vh; border: 0;"
+  loading="lazy">
+</iframe>
 
