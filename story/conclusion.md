@@ -16,7 +16,6 @@ Here is the graph of the game!
 
 ![game graph]({{ '/assets/img/gamegraph.png' | relative_url }})
 
-
 And if you want to look at the wrong links (Not ordered):
 - [BERT]({{ '/story/others/BERT' | relative_url }})
 - [The model]({{ '/story/others/BERT' | relative_url }})
