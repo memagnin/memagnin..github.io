@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title: How Would a Wikispeedia Player Navigate the 2025 Version of Wikipedia?
 ---
 
 Welcome to group TMFT's ada project page!
