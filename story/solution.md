@@ -15,7 +15,7 @@ Here is the list of solution pages for your convenience:
 - [3.b Are players faster on a subset of wikipedia?]({{ '/story/3_b' | relative_url }})
 - [Conclusion]({{ '/story/conclusion' | relative_url }})
 
-And if you want to look at the wrong links (Not ordered):
+And if you want to look at the bonus links (Not ordered):
 - [BERT]({{ '/story/others/BERT' | relative_url }})
 - [The model]({{ '/story/others/BERT' | relative_url }})
 - [A fun fact]({{ '/story/others/fun_fact' | relative_url }})
@@ -23,6 +23,13 @@ And if you want to look at the wrong links (Not ordered):
 - [A huge set]({{ '/story/others/huge_set' | relative_url }})
 - [An upset plot]({{ '/story/others/link_section' | relative_url }})
 - [Mean and Median]({{ '/story/others/mean_median' | relative_url }})
+- [try]({{ '/story/others/try' | relative_url }})
 - [PageRank]({{ '/story/others/PageRank' | relative_url }})
 - [Wikipedia]({{ '/story/others/Wikipedia' | relative_url }})
+- [Good]({{ '/story/others/Good' | relative_url }})
+- [navigation]({{ '/story/others/Christopher_Columbus' | relative_url }})
+- [deep learning model]({{ '/story/others/DL_model' | relative_url }})
+- [BERT]({{ '/story/others/BERT' | relative_url }})
+- [abundance]({{ '/story/others/Abondance' | relative_url }})
+- [Conversely]({{ '/story/others/Converse' | relative_url }})
 - More links to other websites were included like papers, wikipedia pages etc.
