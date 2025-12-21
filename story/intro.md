@@ -23,4 +23,4 @@ The goal is to reach the conclusion page. The correct link to click on correspon
   - some links get you out of this website, just head back!
 </details>
 
-You can also directly check the [solution]({{ '/story/solution' | relative_url }})
+You can also directly check the [solution]({{ '/story/solution' | relative_url }}).
