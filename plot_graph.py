@@ -18,7 +18,11 @@ red_nodes = {
     "Introduction",
     "Power of the first links",
     "General player behaviour",
-    "Lazy players"
+    "Lazy players",
+    "fast/slow navigation",
+    "Experimental Setup, Model Results and Subgraphs",
+    "Are players faster on a subset of wikipedia?",
+    "conclusion"
 }
 
 backbone_order = [
@@ -26,7 +30,11 @@ backbone_order = [
     "Wikipedia graph structure",
     "Power of the first links",
     "General player behaviour",
-    "Lazy players"
+    "Lazy players",
+    "fast/slow navigation",
+    "Experimental Setup, Model Results and Subgraphs",
+    "Are players faster on a subset of wikipedia?",
+    "conclusion"
 ]
 
 red_edges = {
@@ -34,6 +42,10 @@ red_edges = {
     ("Wikipedia graph structure", "Power of the first links"),
     ("Power of the first links", "General player behaviour"),
     ("General player behaviour", "Lazy players"),
+    ("Lazy players", "fast/slow navigation"),
+    ("fast/slow navigation", "Experimental Setup, Model Results and Subgraphs"),
+    ("Experimental Setup, Model Results and Subgraphs", "Are players faster on a subset of wikipedia?"),
+    ("Are players faster on a subset of wikipedia?", "conclusion")
 }
 
 # 4) colors
@@ -43,18 +55,20 @@ edge_widths = [3.0 if (u, v) in red_edges else 1.2 for (u, v) in G.edges()]
 
 pos = {}
 for i, n in enumerate(backbone_order):
-    pos[n] = (i * 100, 0) 
+    pos[n] = (500*i, 4000-300*i)  # x, y
 
 # Layout
 pos = nx.spring_layout(
     G,
     pos=pos,
     fixed=backbone_order,
-    seed=42,
-    k=0.2, # increase to spread things out
-    iterations=300
+    seed=15,
+    k=0.6, # increase to spread things out
+    iterations=2
 )
-# pos = nx.kamada_kawai_layout(G, pos=pos)
+#pos = nx.kamada_kawai_layout(G)
+
+#pos = nx.random_layout(G, seed=0)
 
 plt.figure(figsize=(12, 8))
 
