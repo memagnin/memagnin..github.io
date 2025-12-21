@@ -17,6 +17,8 @@ To better understand what it is like to play wikispeedia on a smaller graph, you
 
 The goal is to get to the conclusion page. The correct link to click on is about the next step in the analysis. You can either find it from the current analysis e.g "We saw that geography is an important topic" -> solution will be "geography".
 
+**We suggest that you read each page entirely before clicking on the hyperlinks!**
+
 <details markdown="1">
   <summary markdown="span">There will be some hints :)</summary>
   - if you are on a page "fun fact", then you got out of the datastory
