@@ -85,5 +85,5 @@ nx.draw_networkx_labels(G, pos, font_size=8)
 
 plt.axis("off")
 plt.tight_layout()
-#plt.savefig("assets/img/gamegraph.png", dpi=300)
+plt.savefig("assets/img/gamegraph.png", dpi=300)
 plt.show()
